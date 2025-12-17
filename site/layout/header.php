@@ -301,8 +301,9 @@ $more = !empty($categories) ? array_slice($categories, $maxTabs) : [];
       <a class="brand" href="<?= BASE_URL ?>">
         <span class="brand-badge">24h</span>
         <span>
-          <div class="brand-name">Tin Thể Thao Moi Nhat toan cau</div>
+          <div class="brand-name">Tin Thể Thao</div>
           <div class="brand-sub">24/7 Sports News</div>
+          <div>Nguyễn Hoàng Dương- Thứ 4 - Ca 2</div>
         </span>
       </a>
 
