@@ -26,7 +26,7 @@ $more = !empty($categories) ? array_slice($categories, $maxTabs) : [];
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Tin tức thể thao SIUUUUU</title>
+  <title>Tin tức thể thao</title>
   <link rel="icon" type="image/x-icon" href="<?= BASE_URL ?>site/layout/favicon.ico">
 
   <!-- Bootstrap 5 -->
@@ -277,7 +277,7 @@ $more = !empty($categories) ? array_slice($categories, $maxTabs) : [];
       <div class="d-flex align-items-center gap-3">
         <span class="small-muted d-flex align-items-center gap-2">
           <span class="live-dot"></span>
-          Tin nhanh • Thể thao • 24/7
+          Tin nhanh • Thể thao • 24/24
         </span>
         <span class="divider-v d-none d-md-inline-block"></span>
         <a class="d-none d-md-inline-block" href="<?= BASE_URL ?>articles">Mới nhất</a>
