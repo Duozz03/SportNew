@@ -303,7 +303,6 @@ $more = !empty($categories) ? array_slice($categories, $maxTabs) : [];
         <span>
           <div class="brand-name">Tin Thể Thao</div>
           <div class="brand-sub">24/7 Sports News</div>
-          <div>Nguyễn Hoàng Dương- Thứ 4 - Ca 2</div>
         </span>
       </a>
 
