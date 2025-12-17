@@ -1,0 +1,27 @@
+RewriteEngine On
+RewriteBase /NguyenHoangDuong_DH52200548/
+
+RewriteRule ^site/upload/ - [L]
+
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+# ========== 3) ROUTES PUBLIC ==========
+RewriteRule ^$ site/index.php [L,QSA]
+RewriteRule ^articles/?$ site/index.php?c=article&a=list [L,QSA]
+RewriteRule ^article/([0-9]+)/?$ site/index.php?c=article&a=detail&id=$1 [L,QSA]
+RewriteRule ^category/([0-9]+)/?$ site/index.php?c=category&a=articles&id=$1 [L,QSA]
+
+# ========== 4) ROUTES ADMIN ==========
+# Admin dashboard
+RewriteRule ^admin/?$ site/index.php?c=admin&a=dashboard [L,QSA]
+
+# Trang login
+RewriteRule ^admin/login/?$ site/index.php?c=auth&a=loginForm [L,QSA]
+
+#shortcut quản lý bài viết / danh mục
+RewriteRule ^admin/articles/?$ site/index.php?c=article&a=manage [L,QSA]
+RewriteRule ^admin/categories/?$ site/index.php?c=category&a=manage [L,QSA]
+
+# ========== 5) FALLBACK ==========
+RewriteRule .* site/index.php [L,QSA]

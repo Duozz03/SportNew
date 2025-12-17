@@ -1,0 +1,12 @@
+<?php
+try {
+    require_once "config.php";
+    // Tạo kết nối PDO
+    $dsn = "mysql:host=" . SERVERNAME . ";dbname=" . DBNAME . ";charset=utf8mb4";
+    $pdo = new PDO($dsn, USERNAME, PASSWORD);
+
+    // Thiết lập chế độ lỗi
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    die("Kết nối thất bại: " . $e->getMessage());
+}
