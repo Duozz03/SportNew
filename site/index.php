@@ -1,4 +1,6 @@
 <?php
+require "../config.php";
+require "../connectDB.php";
 require_once __DIR__ . "/../bootstrap.php";   // chỉ cần 1 dòng này là đủ
 
 $c = $_GET["c"] ?? "home";   // controller
