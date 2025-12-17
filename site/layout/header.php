@@ -26,7 +26,7 @@ $more = !empty($categories) ? array_slice($categories, $maxTabs) : [];
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Tin tức thể thao</title>
+  <title>Tin tức thể thao SIUUUUU</title>
   <link rel="icon" type="image/x-icon" href="<?= BASE_URL ?>site/layout/favicon.ico">
 
   <!-- Bootstrap 5 -->
