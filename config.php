@@ -2,5 +2,5 @@
 define("SERVERNAME", "sql312.infinityfree.com");
 define("USERNAME", "if0_40654558");
 define("PASSWORD", "GC35mhbbFIdr");
-define("DBNAME", "sportnews");
+define("DBNAME", "if0_40654558_sportnews");
 define('BASE_URL', '/NguyenHoangDuong_DH52200548/');
